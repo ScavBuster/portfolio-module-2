@@ -1,6 +1,6 @@
 :root {
     --olive:rgb(86, 134, 54);
-    --aqua:#27bbc0;
+    --aqua:#cf9742;
     --white: #ffff;
   
   }
@@ -31,5 +31,37 @@
   }
   nav {
     display: flex;
-    background-color: var(--orange);
+    background-color: var(--aqua);
+  }
+  nav a {
+    color: var(--blue);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  nav a:hover {
+    background-color: var(--white);
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .services {
+    flex: 1;
+    background-color: var(--white);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .card {
+    border-style: solid;
+    border-color: #3f552e;
+    border-width: 3px;
+    padding: 10px;
+    flex: 0 0 300px;
+    box-shadow: 10px 10px 5px #3f552e;
+    margin: 20px;
   }
