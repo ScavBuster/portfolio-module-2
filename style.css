@@ -1,0 +1,31 @@
+:root {
+    --olive:rgb(86, 134, 54);
+    --aqua:#27bbc0;
+    --white: #ffff;
+  
+  }
+  
+  body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  header {
+    padding: 40px;
+    text-align: center;
+    background: var(--olive);
+    color: var(--white);
+  }
