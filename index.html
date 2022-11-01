@@ -5,6 +5,7 @@
   <title>Lernantino // Web Developer</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./css/reset.css">
   <link rel="stylesheet" type="text/css" href="./css/style.css" />
 </head>
@@ -18,10 +19,10 @@
 
   <!-- Navbar -->
   <nav>
-    <a href="#">About Me <link rel="stylesheet" href=""></a>
-    <a href="#">My Work <link rel="stylesheet" href=""></a>
-    <a href="#">Contact Me
-      <link rel="stylesheet" href="">
+    <a href="#About Me">About Me <link rel="stylesheet" href="about me"></a>
+    <a href="#My Work">My Work <link rel="stylesheet" href=""></a>
+    <a href="#Contact Me">Contact Me
+      <link rel="stylesheet" href="Contact Me">
     </a>
  </nav>
  <!-- Body -->
@@ -29,24 +30,59 @@
     <!-- Product Cards -->
     <div class="services">
         <section class="card">
-            <header>About Me</header>
-        
-            <img src="" alt="me" /></section>
+            <header id="About Me">About Me</header>
+          <blockquote>My name is Adam Kaye. i am 28 years old and i have been into computers since the late 90s. i am new to coding and am enjoying the challenge and am eager to see what this future brings me!
+           I have Grown up loving PC building and hardware but never got into the software development side of things. however i am now excited to showcase my journey in the "my work" area of this site as it comes through. as you can see it is currently blank. but i am eager to fill it soon!
+          </blockquote>
+        </section>
           <section class="card">
-            <header>My Work</header>
+            <header id="My Work">My Work</header>
+            <blockquote>Here is a selection of my bootcamp work that i have been compiling</blockquote>
             <img src="" alt="Work Portfolio" />
-                      </section>
+                    <ul>
+                      <li>example 1</li>
+                      <img src="./style/" alt="first challenge">
+                      <br>
+                      <li>example 2</li>
+                      <img src="./style/" alt="Second Challenge">
+                      <br>
+                      <li>example 3</li>
+                      <img src="./style/" alt="Third Challenge">
+                      <br>
+                      <li>example 4</li>
+                      <img src="./style/" alt="Fourth Challenge">
+                    </ul>  
+          </section>
           <section class="card">
-            <header>Contact Me</header><img src="" alt="Contact Page" />
+            <header id="Contact Me">Contact Me</header><img src="" alt="Contact Page" />
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
           </section>
        </div>
-       <blockquote>My name is Adam Kaye. i am 28 years old and i have been into computers since the late 90s. i am new to coding and am enjoying the challenge and am eager to see what this future brings me!</blockquote>
+       <b>
+
+       </b>
+     
        
-       <blockquote>Here is a selection of my bootcamp work that i have been compiling</blockquote>
+       
        
  </main>
  <footer>
-    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius m
+    <h3>made by Adam Kaye
     </h3>
   </footer>
 </body>

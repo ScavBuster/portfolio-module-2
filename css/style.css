@@ -22,7 +22,12 @@
     font-size: 1.5rem;
     margin-bottom: 10px;
   }
-  
+  h3{
+    text-align: center;
+    background-color: #3f552e;
+    color: #ffff;
+    padding-bottom: 40px;
+  }
   header {
     padding: 40px;
     text-align: center;
@@ -32,6 +37,7 @@
   nav {
     display: flex;
     background-color: var(--aqua);
+    
   }
   nav a {
     color: var(--blue);
@@ -65,3 +71,7 @@
     box-shadow: 10px 10px 5px #3f552e;
     margin: 20px;
   }
+.blockquote{
+  text-align: center;
+}
+  
